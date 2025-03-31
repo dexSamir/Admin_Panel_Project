@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss";
 
 .home {
   display: grid;
@@ -8,7 +8,7 @@
   .box {
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid $soft-bg;
+    border: 2px solid variables.$soft-bg;
   }
 
   .box1, .box4{
